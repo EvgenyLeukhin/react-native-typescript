@@ -3,7 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const App = () => (
   <View style={styles.container}>
-    <Text>Open up App.tsx to start working on your app!!!</Text>
+    <Text style={{ color: 'white' }} className="bg-green-500">
+      Open up App.tsx to start working on your app
+    </Text>
     <StatusBar style="auto" />
   </View>
 );

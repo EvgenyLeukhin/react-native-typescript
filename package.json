@@ -7,6 +7,7 @@
     "dev": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
+    "ios:dev": "expo start -c --ios",
     "web": "expo start --web",
     "ts:check": "tsc",
     "prettier:check": "prettier . --check",
