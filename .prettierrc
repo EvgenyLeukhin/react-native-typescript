@@ -4,5 +4,19 @@
   "singleQuote": true,
   "endOfLine": "lf",
   "printWidth": 120,
-  "trailingComma": "es5"
+  "trailingComma": "es5",
+  "arrowParens": "avoid",
+  "importorder": [
+    "<THIRD_PARTY_MODULES>",
+    "^@/components/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/services/(.*)$",
+    "^@/assets/(.*)$",
+    "^@/providers/(.*)$",
+    "^@/types/(.*)$",
+    "^ ../(.*)$",
+    "^./(.*)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

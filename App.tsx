@@ -3,9 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 
 const App = () => (
   <View style={styles.container}>
-    <Text style={{ color: 'white' }} className="bg-green-500">
-      Open up App.tsx to start working on your app
-    </Text>
+    {/* bg-green-500 bg-[#1E1C2E] className="bg-blue-500" */}
+    <Text style={{ color: 'white', fontSize: 35, fontWeight: 700 }}>Hello, React Native!+++</Text>
+
+    {/* auto, dark, light */}
     <StatusBar style="auto" />
   </View>
 );
@@ -14,9 +15,11 @@ const App = () => (
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    // backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: 10,
+    backgroundColor: 'deeppink',
   },
 });
 
